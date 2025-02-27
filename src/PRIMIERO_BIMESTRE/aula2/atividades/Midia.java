@@ -1,4 +1,4 @@
-package PRIMIERO_BIMESTRE.aula2;
+package PRIMIERO_BIMESTRE.aula2.atividades;
 
 public class Midia extends Produto{
 
