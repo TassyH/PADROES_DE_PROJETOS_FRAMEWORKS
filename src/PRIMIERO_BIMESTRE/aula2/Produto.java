@@ -37,9 +37,9 @@ public abstract class Produto {
     }
 
     public void darDesconto(double percentual){
-        double percent = percentual/100;
-        double desconto = getPreco() * percent;
-        this.preco = this.preco - desconto;
+        double desconto = ((percentual/100) * this.preco);
+        System.out.println("desconto calcilado: "+desconto);
+        this.preco -= desconto;
     }
 
     public void reajustarPreco(double percentual){

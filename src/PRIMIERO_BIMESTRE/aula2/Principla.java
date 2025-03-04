@@ -4,7 +4,7 @@ public class Principla {
 
     public static void main(String[] args) {
 
-        Livro li = new Livro(2, 1000, 1, "Susan Colins", "Arquiro", 300);
+        Livro li = new Livro(2, 65, 1, "Susan Colins", "Arquiro", 300);
         Livro li2 = new Livro(4, 1000, 1, "JK ROLLING", "Arqueiro", 500);
 
         Midia mi = new Midia(3, 1000, 2, "Twenty One Pilots");
@@ -26,6 +26,7 @@ public class Principla {
         mi2.darDesconto(30);
 
         System.out.println("Livro 1: "+li.getPreco());
+        System.out.println("Preço com imposto "+li.calculaImposto());
         System.out.println("Livro 2: "+li2.getPreco());
 
         System.out.println("Midia 1: "+mi.getPreco());
