@@ -1,6 +1,5 @@
-package PRIMIERO_BIMESTRE.aula5;
+package PRIMIERO_BIMESTRE.aula5.atividades;
 
-import org.omg.Messaging.SyncScopeHelper;
 
 public class Motor {
 

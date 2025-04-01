@@ -1,4 +1,4 @@
-package PRIMIERO_BIMESTRE.aula5;
+package PRIMIERO_BIMESTRE.aula5.atividades;
 
 public class BiulderSUV implements Builder{
     private Carro carro;

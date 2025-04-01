@@ -1,4 +1,4 @@
-package PRIMIERO_BIMESTRE.aula5;
+package PRIMIERO_BIMESTRE.aula5.atividades;
 
 public class Principal {
     public static void main(String[] args) {
