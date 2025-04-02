@@ -11,10 +11,6 @@ public class PorItem extends Empregado{
         this.quantidade = quantidade;
     }
 
-    public PorItem(String nome, String email, int anoContratacao) {
-        super(nome, email, anoContratacao);
-    }
-
     public double getValor_producao() {
         return valor_producao;
     }

@@ -1,4 +1,4 @@
-package PRIMIERO_BIMESTRE.aula7;
+package PRIMIERO_BIMESTRE.aula7.atividade1;
 
 public class ProxyMensagem implements Mensagem{
 

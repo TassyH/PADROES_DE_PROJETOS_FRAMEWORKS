@@ -1,6 +1,6 @@
-package PRIMIERO_BIMESTRE.aula7.atividade1;
+package PRIMIERO_BIMESTRE.aula7.atividade2;
 
-public class ProxyMensagem implements Mensagem{
+public class ProxyMensagem implements Mensagem {
 
     private MensagemReal msg = new MensagemReal();
 
@@ -10,4 +10,13 @@ public class ProxyMensagem implements Mensagem{
         msg.mostraMensagem();
         System.out.println("Proxy excuta algo APOS de MensagemReal!");
     }
+
+    @Override
+    public void novaMensagem() {
+        System.out.println("socorro deus");
+        msg.novaMensagem();
+
+    }
+
+
 }

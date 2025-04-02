@@ -10,10 +10,6 @@ public class Gerente extends Empregado {
         this.salario = salario;
     }
 
-    public Gerente(String nome, String email, int anoContratacao) {
-        super(nome, email, anoContratacao);
-    }
-
     public double getSalario() {
         return salario;
     }

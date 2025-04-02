@@ -13,10 +13,6 @@ public class PorComissao extends Empregado {
         this.vendas = vendas;
     }
 
-    public PorComissao(String nome, String email, int anoContratacao) {
-        super(nome, email, anoContratacao);
-    }
-
     public double getSalario() {
         return salario;
     }

@@ -11,10 +11,6 @@ public class PorHora extends  Empregado{
         this.quant_horas = quant_horas;
     }
 
-    public PorHora(String nome, String email, int anoContratacao) {
-        super(nome, email, anoContratacao);
-    }
-
     public double getValor_hora() {
         return valor_hora;
     }
