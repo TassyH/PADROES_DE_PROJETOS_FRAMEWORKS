@@ -1,0 +1,7 @@
+
+calculando area do quadrado de lado: 10.0
+Calculo realizado
+calculando area do retangulo de base: 5.0e altura: 2.0
+Calculo realizado
+calculando area do circulo de raio: 1.0
+Calculo realizado
